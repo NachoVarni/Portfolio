@@ -1,0 +1,40 @@
+.work {
+  min-height: 100vh;
+  
+  .wrapper {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    
+    
+    .image {
+      width: 300px;
+      height: 200px;
+      border-radius: 20px;
+    }
+  
+    .text {
+      margin-left: 30px;
+      font-size: 1.5rem;
+      max-width: 300px;
+    }
+  
+    @media (max-width: 812px) {
+      margin: 50px 15px;
+  
+      .image {
+        width: 150px;
+        height: 100px;
+      }
+  
+      .text {
+        font-size: 1rem;
+        
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,77 @@
+.wrapper {
+  max-width: 600px;
+  margin: 50px;
+
+  animation: move 2s;
+  -webkit-animation: move 2s;
+    
+    @keyframes move {
+      from {
+        margin-left: 100%;
+        width: 100%; 
+      }
+    
+      to {
+        margin-left: 50px;
+        width: 100%;
+      }
+    }
+                
+    @-webkit-keyframes move {
+      from {
+        margin-left: 100%;
+        width: 100%; 
+      }
+    
+      to {
+        margin-left: 50px;
+        width: 100%;
+      }
+    
+      
+    }
+
+  .text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  @media (max-width: 812px) {
+    max-width: 300px;
+    margin: 200px 50px;
+
+    .text {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    
+    @keyframes move {
+      from {
+        margin-left: 100%;
+        width: 400%; 
+      }
+    
+      to {
+        margin-left: 15px;
+        width: 100%;
+      }
+    }
+                
+    @-webkit-keyframes move {
+      from {
+        margin-left: 100%;
+        width: 400%; 
+      }
+    
+      to {
+        margin-left: 15px;
+        width: 100%;
+      }
+    
+      
+    }
+  }
+}
+
+
+

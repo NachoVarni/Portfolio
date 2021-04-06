@@ -1,0 +1,13 @@
+.wrapper {
+  display: none;
+
+  @media (max-width: 812px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    .contactData {
+      margin-top: 5px;
+    }
+  }
+}
